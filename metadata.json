@@ -1,0 +1,5 @@
+{
+  "name": "SessionFlow v1.6",
+  "description": "Une application pour les enseignants universitaires pour importer leur emploi du temps et le visualiser sous forme de tableau de bord, groupé par module ou par semaine, inspiré de leur feuille de suivi Excel.",
+  "requestFramePermissions": []
+}
