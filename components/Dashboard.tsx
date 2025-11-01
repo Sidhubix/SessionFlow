@@ -298,7 +298,7 @@ const Dashboard: React.FC<DashboardProps> = ({ data, width, tooltipDelay, sortOr
              <tr className="bg-white dark:bg-gray-800 font-bold h-14">
               {side === 'left' ? (
                 <>
-                  <td className="p-2 border-b border-gray-200 dark:border-gray-700 text-left text-green-600 dark:text-green-300 w-48 align-middle">Cumul ></td>
+                  <td className="p-2 border-b border-gray-200 dark:border-gray-700 text-left text-green-600 dark:text-green-300 w-48 align-middle">Cumul {' >'}</td>
                   <td className="p-2 border-b border-gray-200 dark:border-gray-700 text-center font-bold text-green-600 dark:text-green-300 w-24 align-middle">
                     {moduleTotalHours.toLocaleString('fr-FR')}h
                   </td>
